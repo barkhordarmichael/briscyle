@@ -1,0 +1,378 @@
+
+
+body {
+    
+   width: 100%;
+    padding: 25px;
+    background-image: url("https://images.unsplash.com/photo-1452573992436-6d508f200b30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGN5Y2xpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-size: 100vw;
+     font-family: 'Montserrat', sans-serif;
+    
+    
+    
+  }
+  a{
+      text-decoration: none;
+      color: white;
+      
+  }
+  main{
+      color: whitesmoke;
+  }
+  .header{
+      display: flex;
+      gap: 15%;
+      padding: 15px;
+      justify-content: left;
+      
+      font-family: alex brush, sans-serif;
+      font-size: 2rem;
+      
+  }
+  
+  .logo{
+      width: 200px;
+      margin: auto;
+      border-radius: 50% 10% 10%;
+      -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+  }
+  
+  .nav{
+      
+      display: flex;
+    
+      padding: 15px;
+      gap: 15px;
+      justify-content: space-evenly;
+      background-color: black;
+      font-family: helvetica, sans-serif;
+      font-size: 0.8em;
+      border-radius: 10px;
+  }
+  .mobile-nav{
+    display: none;
+  }
+  
+  .reviews{
+      padding: 5px;
+      margin-top: 10px;
+      justify-content: center;
+      padding-top: 15px;
+      text-align: center;
+      font-size: 1.2rem;
+      font-style: italic;
+      background: rgba(210, 216, 210, 0.288);
+      height: 10vh;
+     
+      border-radius: 15px;
+  }
+  footer{
+      display: none;
+      background-color: black;
+      text-align: center;
+      color: white;
+      font-size: 0.8rem;
+  }
+  .social > img{
+      border-radius: 75%;
+      width: 25px;
+      height: 25px;
+  }
+  section{
+    width: 100%;
+      margin-top: 30px;
+      padding: 10px;
+      font-family: Arial, Helvetica, sans-serif;  
+      background:rgba(81, 85, 81, 0.5);
+      border-radius: 15px;
+      box-shadow: 2px 2px 3px green; 
+          
+      }
+      .centered-text{
+        width: 100%;
+          text-align: center;
+          line-height: 2;
+          font-family: 'Montserrat', sans-serif;
+        }
+      p > a{
+          text-decoration: underline;
+      }
+      a:hover{
+          color: yellow;
+          transform: scale(1.5);
+          transition-duration: 1s;
+          box-shadow: 1px 1px 2px 2px;
+          border-radius: 15%;
+         
+      }
+      .nav:hover {
+        background-color: rgb(6, 95, 25);
+      }
+      .socials{
+        display: absolute;
+        text-align: right;
+        margin-right: 20px;
+    }
+    .socials i:hover{
+      color: green;
+    }
+      .price-list h2 h1 h3{
+        font-size: 1.5em;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+        
+      }
+      .price-list h2{
+        background-color: rgb(6, 95, 25);
+        font-style: oblique;
+        border-radius: 20px;
+        font-family: 'Montserrat', sans-serif;
+      }
+      .contact-form{
+		display: flex;
+		flex-direction: column;
+		background-color: rgb(216, 214, 231, 30%);
+		gap: 20px;
+		padding: 30px;
+		
+		width:50vw;
+		/*margin: 100px 170px;*/
+		margin: 100px auto;
+		line-height: 1.5;
+		align-items: center;
+		border-radius: 10px;
+		box-shadow:  3px 3px 4px 4px;
+		
+	}
+  .booking-form{
+		display: flex;
+		flex-direction: column;
+		background-color: rgb(216, 214, 231, 30%);
+		gap: 10px;
+		padding: 10px;
+		width:50vw;
+		/*margin: 100px 170px;*/
+		margin: 100px auto;
+		line-height: 1.5;
+		align-items: center;
+		border-radius: 10px;
+		box-shadow:  3px 3px 4px 4px;
+		
+	}
+  .card {
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    gap:20px;
+    text-align: center;
+  }
+  .card-image{
+    width: 300px;
+    border-radius: 25px;
+  }
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+    
+  
+  
+  
+
+	/*.contact-form-content label input{
+		display: block;
+		margin: auto;
+	}*/
+		
+	input, textarea{
+		
+		border-radius: 5px;
+		border-color: aquamarine;
+		width: 350px;
+		height: 2.5vh;
+		border-radius: 6px;
+	}
+	textarea{
+		height: 20vh;
+	}
+	input:hover{
+		border-color:rgb(24, 85, 85);
+		box-shadow:  1px 1px;
+		
+	}
+	textarea:hover{
+		border-color:rgb(62, 126, 126);
+	}
+	
+	.submit-btn{
+		height: 60px;
+		width: 300px;
+		margin-left: 5%;
+		align-content: center;
+		line-height: 3;
+		font-family: 'Antonio', sans-serif;
+		font-size: 1rem;
+		box-shadow: 2px 2px;
+		
+	}
+	.submit-btn:hover{
+		background-color: aqua;
+	}
+	label, select, input, textarea, option{
+		display: block;
+		border: 1;
+		align-content: center;
+		margin: 4px;
+		padding: 10px;
+	}
+    
+  .main-content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-repeat: no-repeat;
+    background-position: center cover;
+    background-size: 100%;
+    margin-top: -15px;
+    
+    }
+    
+    .fb-page{
+      position: relative;     
+      margin: 40px auto;
+      border-radius: 20px;;
+      box-shadow: 4px 4px 7px;
+    }
+    
+    .dropdown{
+        display: none;
+    }
+    .reviews-box{
+      
+      height: 100px;
+      padding: 10px;
+      background-color: lightgray;
+      margin-bottom: 50px;
+      border-radius: 10px;
+      box-shadow: 4px 4px 7px;
+      padding: 20px 20px;;
+      font-size: 18px;
+      text-align: center;
+    }
+    #reviews{
+      font-size: 15px;
+    }
+
+    
+    @media only screen and (max-width: 600px){
+        body{
+            padding: 0;
+        }
+        .main{
+            max-width: 700px;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+        }
+        .header{
+           display: block;
+           padding: 0px;
+           gap: 10px;
+           justify-content: left;
+           font-size: 1em;
+            color: white;
+            
+        }
+        
+        .nav{
+      
+          display: flex;
+          padding: 1px;
+          
+          background-color: black;
+          font-family: helvetica, sans-serif;
+          font-size: 0.6em;
+          border-radius: 10px;}
+
+        .logo{
+            width: 100px;
+            padding: 0;
+           
+        }
+
+       /* .nav{
+            display: none;
+         
+
+        }
+
+        /* Dropdown Button 
+.dropbtn {
+    background-color: #030303;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+    
+  }
+  
+  /* Dropdown Content (Hidden by Default) 
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.2);
+    min-width: 160px;
+    
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown 
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover 
+  .dropdown-content a:hover {background-color: rgba(0,0,0,0.2);}
+  
+  /* Show the dropdown menu on hover 
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown 
+  .dropdown:hover .dropbtn {background-color:  rgba(0,0,0,0.2);}
+*/
+.contact-form{
+  width: 266px;
+  display: block;
+  background-color: rgb(216, 214, 231);
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 35px;
+    
+}
+.submit-btn{
+  width: 200px;
+  margin-left: 35px;
+}
+label, select, input, textarea, option{
+  display: block;
+  border: 1;
+  background-color: coral;
+  width: 260px;
+  padding-top: 5px;
+  justify-content: center;
+}
+  
+    }
